@@ -11,5 +11,5 @@ def get_firefox_driver():
 
 if __name__ == '__main__':
     browser = get_firefox_driver()
-    browser.get('http://localhost:8080')
+    browser.get('http://localhost:8000')
     assert 'Django' in browser.title
